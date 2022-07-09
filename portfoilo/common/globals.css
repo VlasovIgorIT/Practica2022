@@ -1,0 +1,52 @@
+@import "/vendor/normalize.css";
+
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --accent: rgb(255, 225, 55);
+}
+html,
+body {
+  min-height: 100vh;
+}
+html {
+  font-family: "M PLUS 1 Code";
+  font-size: 18px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  margin-top: 80px;
+}
+a:hover {
+  color: var(--accent);
+}
+.highlight {
+  color: var(--accent);
+}
+.container {
+  margin: 0 200px 50px;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+ul {
+  padding: 0;
+}
+.header_highlight::before {
+  content: "{ ";
+  color: var(--accent);
+}
+.header_highlight::after {
+  content: " }";
+  color: var(--accent);
+}

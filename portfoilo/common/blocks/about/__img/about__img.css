@@ -1,0 +1,7 @@
+.about__img {
+  width: 300px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 9999px;
+  margin-right: 70px;
+}

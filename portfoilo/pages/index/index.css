@@ -1,0 +1,30 @@
+@import "/common/globals.css";
+
+@import "/pages/index/index.css";
+
+@import "/common/blocks/main-header/main-header.css";
+@import "/common/blocks/main-header/__link/main-header__link.css";
+@import "/common/blocks/main-header/__link-a/main-header__link-a.css";
+@import "/common/blocks/main-header/__links/main-header__links.css";
+@import "/common/blocks/main-header/__button/main-header__button.css";
+@import "/common/blocks/main-header/__logo/main-header__logo.css";
+
+@import "/common/blocks/profile/profile.css";
+@import "/common/blocks/profile/__title/profile__title.css";
+@import "/common/blocks/profile/__role/profile__role.css";
+
+@import "/common/blocks/about/about.css";
+@import "/common/blocks/about/__content/about__content.css";
+@import "/common/blocks/about/__img/about__img.css";
+@import "/common/blocks/about/__paragraph/about__paragraph.css";
+
+@import "/common/blocks/contacts/contacts.css";
+@import "/common/blocks/contacts/__links/contacts__links.css";
+@import "/common/blocks/contacts/__link/contacts__link.css";
+@import "/common/blocks/contacts/__link-a/contacts__link-a.css";
+@import "/common/blocks/contacts/__icon/contacts__link-icon.css";
+@import "/common/blocks/main-footer/main-footer.css";
+@import "/common/blocks/project/__center-img.css";
+@import "/common/blocks/project/__next.css";
+@import "/common/blocks/project/__prev.css";
+@import "/common/blocks/project/__info.css";

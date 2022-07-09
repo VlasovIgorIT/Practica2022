@@ -1,0 +1,6 @@
+.next {
+    position: absolute;
+    right: 0;
+    padding-right: 100px;
+    border-radius: 3px 0 0 3px;
+  }

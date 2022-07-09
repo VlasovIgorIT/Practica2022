@@ -1,0 +1,6 @@
+.main-header__button {
+  background-color: var(--accent);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 9999px;
+}

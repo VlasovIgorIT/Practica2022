@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index/index.css" />
+    <title>Vlasov Igor</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="/index.html" class="main-header__logo header_highlight">
+        Vlasov Igor
+      </a>
+
+      <ul class="main-header__links">
+        <li class="main-header__link">
+          <a class="main-header__link-a" href="#">Home</a>
+        </li>
+        <li class="main-header__link">
+          <a class="main-header__link-a" href="#about">About Me</a>
+        </li>
+        <li class="main-header__link">
+          <a class="main-header__link-a" href="#projects">Projects</a>
+        </li>
+      </ul>
+
+      
+      <form action="#contacts">
+        <button class="main-header__button">Contact Me</button>
+       </form>
+    </header>
+    <main>
+      <section class="container profile" id="about">
+        <h1 class="profile__title">&lt;!-- Hello This Is Igor --></h1>
+        <h2 class="profile__role">
+          \\ Student MIIGAIK <br />
+          \\ Programmer 1C / HTML
+        </h2>
+      </section>
+      <section class="container about" >
+        <h1 class="about__title header_highlight">About Me</h1>
+        <div class="about__content">
+          <img
+            class="about__img"
+            src="/content/img/profile.jpg"
+            alt="Profile Image"
+          />
+          <p class="about__paragraph">
+            I am a student at the Moscow Institute of Geodesy and Cartography.
+            I have been programming in the 1C language for two years now.
+            I am currently studying the following technologies: HTML, CSS, JS
+          </p>
+        </div>
+      </section>
+    </section>
+    <section class="container projects" id="projects">
+    <h1 class="projects__title header_highlight">Projects</h1>
+    <div class="slideshow-container">
+      <div class="mySlides">
+          <img src="/content/img/FirstProject.png" 
+          alt="Photo" 
+          width="700px" 
+          height="400px" 
+          class="center-img">
+         <p class="info">My web site</p>
+      </div>
+      <div class="mySlides">
+        <img src="https://photodom.kz/67-Niara_large/r-029-36.jpg" 
+          alt="Photo" 
+          width="700px" 
+          height="400px" 
+          class="center-img">
+          <p class="info"> Maybe your website will be here...</p>
+      </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+
+
+</div>
+    </section>
+      <section class="container contacts" id="contacts">
+        <h1 class="contacts__title header_highlight">Contacts</h1>
+        <ul class="contacts__links">
+          <li class="contacts__link">
+            <a class="contacts__link-a contact-email" href="#"
+              ><img
+                class="contacts__link-icon"
+                src="/content/icons/email.svg"
+                alt="Email"
+            /></a>
+          </li>
+          <li class="contacts__link">
+            <a
+              class="contacts__link-a contact-telegram"
+              href="https://t.me/IgorVlasov09"
+              ><img
+                class="contacts__link-icon"
+                src="/content/icons/telegram.svg"
+                alt="Telegram"
+            /></a>
+          </li>
+        </ul>
+    </main>
+
+    <script src="/pages/index/index.js" defer></script>
+  </body>
+</html>
